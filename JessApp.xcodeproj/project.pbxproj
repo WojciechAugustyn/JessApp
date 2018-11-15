@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		ED886D5B2193AA6500E20661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED886D5A2193AA6500E20661 /* AppDelegate.swift */; };
 		ED886D5D2193AA6500E20661 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED886D5C2193AA6500E20661 /* FirstViewController.swift */; };
-		ED886D5F2193AA6500E20661 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED886D5E2193AA6500E20661 /* SecondViewController.swift */; };
 		ED886D622193AA6500E20661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED886D602193AA6500E20661 /* Main.storyboard */; };
 		ED886D642193AA6A00E20661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED886D632193AA6A00E20661 /* Assets.xcassets */; };
 		ED886D672193AA6A00E20661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED886D652193AA6A00E20661 /* LaunchScreen.storyboard */; };
 		ED886D722193AA6A00E20661 /* JessAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED886D712193AA6A00E20661 /* JessAppTests.swift */; };
 		ED886D7D2193AA6A00E20661 /* JessAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED886D7C2193AA6A00E20661 /* JessAppUITests.swift */; };
+		EDA1A9122198C368004A5A91 /* FeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1A9112198C368004A5A91 /* FeesViewController.swift */; };
+		EDA1A9142198C4A6004A5A91 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1A9132198C4A6004A5A91 /* ContactsViewController.swift */; };
+		EDA1A9162198C4D0004A5A91 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1A9152198C4D0004A5A91 /* CalendarViewController.swift */; };
+		EDA1A9182198C83D004A5A91 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1A9172198C83D004A5A91 /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		ED886D572193AA6500E20661 /* JessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED886D5A2193AA6500E20661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED886D5C2193AA6500E20661 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		ED886D5E2193AA6500E20661 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		ED886D612193AA6500E20661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED886D632193AA6A00E20661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED886D662193AA6A00E20661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		ED886D782193AA6A00E20661 /* JessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED886D7C2193AA6A00E20661 /* JessAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JessAppUITests.swift; sourceTree = "<group>"; };
 		ED886D7E2193AA6A00E20661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA1A9112198C368004A5A91 /* FeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeesViewController.swift; sourceTree = "<group>"; };
+		EDA1A9132198C4A6004A5A91 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		EDA1A9152198C4D0004A5A91 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		EDA1A9172198C83D004A5A91 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				ED886D5A2193AA6500E20661 /* AppDelegate.swift */,
 				ED886D5C2193AA6500E20661 /* FirstViewController.swift */,
-				ED886D5E2193AA6500E20661 /* SecondViewController.swift */,
+				EDA1A9172198C83D004A5A91 /* GalleryViewController.swift */,
+				EDA1A9152198C4D0004A5A91 /* CalendarViewController.swift */,
+				EDA1A9112198C368004A5A91 /* FeesViewController.swift */,
+				EDA1A9132198C4A6004A5A91 /* ContactsViewController.swift */,
 				ED886D602193AA6500E20661 /* Main.storyboard */,
 				ED886D632193AA6A00E20661 /* Assets.xcassets */,
 				ED886D652193AA6A00E20661 /* LaunchScreen.storyboard */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED886D5F2193AA6500E20661 /* SecondViewController.swift in Sources */,
+				EDA1A9162198C4D0004A5A91 /* CalendarViewController.swift in Sources */,
+				EDA1A9122198C368004A5A91 /* FeesViewController.swift in Sources */,
 				ED886D5B2193AA6500E20661 /* AppDelegate.swift in Sources */,
+				EDA1A9182198C83D004A5A91 /* GalleryViewController.swift in Sources */,
 				ED886D5D2193AA6500E20661 /* FirstViewController.swift in Sources */,
+				EDA1A9142198C4A6004A5A91 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
