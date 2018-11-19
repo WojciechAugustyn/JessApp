@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED5E0C0A21A0CCDC0096F0EF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E0C0921A0CCDC0096F0EF /* MessageUI.framework */; };
 		ED886D5B2193AA6500E20661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED886D5A2193AA6500E20661 /* AppDelegate.swift */; };
 		ED886D5D2193AA6500E20661 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED886D5C2193AA6500E20661 /* FirstViewController.swift */; };
 		ED886D622193AA6500E20661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED886D602193AA6500E20661 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED5E0C0921A0CCDC0096F0EF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		ED886D572193AA6500E20661 /* JessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED886D5A2193AA6500E20661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED886D5C2193AA6500E20661 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5E0C0A21A0CCDC0096F0EF /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED5E0C0821A0CCDC0096F0EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E0C0921A0CCDC0096F0EF /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED886D4E2193AA6500E20661 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +100,7 @@
 				ED886D702193AA6A00E20661 /* JessAppTests */,
 				ED886D7B2193AA6A00E20661 /* JessAppUITests */,
 				ED886D582193AA6500E20661 /* Products */,
+				ED5E0C0821A0CCDC0096F0EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,13 +217,16 @@
 				TargetAttributes = {
 					ED886D562193AA6500E20661 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
 					};
 					ED886D6C2193AA6A00E20661 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
 						TestTargetID = ED886D562193AA6500E20661;
 					};
 					ED886D772193AA6A00E20661 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
 						TestTargetID = ED886D562193AA6500E20661;
 					};
 				};
@@ -447,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LC67F8H68X;
 				INFOPLIST_FILE = JessApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,7 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WA.JessApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -464,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LC67F8H68X;
 				INFOPLIST_FILE = JessApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,7 +488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WA.JessApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -490,7 +507,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WA.JessAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JessApp.app/JessApp";
 			};
@@ -510,7 +527,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WA.JessAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JessApp.app/JessApp";
 			};
@@ -529,7 +546,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WA.JessAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = JessApp;
 			};
@@ -548,7 +565,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = WA.JessAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = JessApp;
 			};
