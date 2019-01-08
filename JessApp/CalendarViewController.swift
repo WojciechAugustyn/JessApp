@@ -60,7 +60,7 @@ class CalendarViewController: UIViewController, MFMailComposeViewControllerDeleg
     
     @IBAction func Submit(_ sender: AnyObject) {
    
-        let toRecipients = ["wojciech.augustyn85@gmail.com"]
+        let toRecipients = ["dzesika208@gmail.com"]
         let mc: MFMailComposeViewController = MFMailComposeViewController()
         mc.mailComposeDelegate = self
         mc.setToRecipients(toRecipients)
